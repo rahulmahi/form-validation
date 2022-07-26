@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="input-form.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="lottery">
+            <h3>lottery Display</h3>
+            <p>A few click away from creating your lottery Display</p>
+
+            <table>
+                <tr>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>phone</th>
+                    <th>email</th>
+                    <th>password</th>
+                    <th>confirm password</th>
+                </tr>
+                <tr>
+                    <td id="first-row"></td>
+                    <td id="second-row"></td>
+                    <td id="third-row"></td>
+                    <td id="fourth-row"></td>
+                    <td id="fifth-row"></td>
+                    <td id="sixth-row"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="parent">
+            <p>Register</p>
+            <p>manage all your lottery efficiency</p>
+            <p>enter your details below</p>
+            <span class="first-span">*</span>
+            <span>Required</span>
+            <div class="input-boxs">
+                <div>
+                    <label for="input-box1">first name<span class="first-span">*</span></label><br>
+                    <input type="text" id="input-box1" placeholder="enter your name"><br>
+                    <p id="first-para" class="para"></p>
+
+                    <label for="ph_no" class="label">phone no<span class="first-span">*</span></label><br>
+                    <input type="number" placeholder="enter your number" id="ph_no"><br>
+                    <p id="second-para" class="para"></p>
+
+                    <label for="password">enter your password<span class="first-span">*</span></label><br>
+                    <input type="password" placeholder="enter your password" id="password">
+                    <p id="third-para" class="para"></p>
+                </div>
+                <div>
+                    <label for="last_name" class="last">last name<span class="first-span">*</span></label><br>
+                    <input type="text" placeholder="enter your last name" class="last" id="last_name"><br>
+                    <p id="four-para" class="para1"></p>
+
+                    <label for="email" class="last" id="">E-mail<span class="first-span">*</span></label><br>
+                    <input type="email" placeholder="enter your e-mail" class="last" id="email"><br>
+                    <p id="five-para" class="para1"></p>
+
+                    <label for="con-pass" class="last">confirm password<span class="first-span">*</span></label><br>
+                    <input type="password" placeholder="enter your password" class="last" id="con-pass">
+                    <p id="six-para" class="para1"></p>
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="check-box">
+                <span>Yes,i will want to create an account</span><br>
+                <button id="btn">submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="input-form.js"></script>
+</body>
+
+</html>

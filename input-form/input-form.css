@@ -1,0 +1,45 @@
+.first-span{
+    color: orangered;
+}
+.input-boxs{
+    display: flex;
+    margin-top: 10px;
+}
+.last{
+    margin-left: 50px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+button{
+    margin-top: 10px;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    height: 30px;
+    width: 100px
+}
+table{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+}
+.para1{
+    margin-left: 50px;
+    color: orangered;
+}
+.para{
+    color: orangered;
+}
+.parent{
+    width: 50%;
+}
+.lottery{
+    width: 50%;
+    text-align: center;
+}
